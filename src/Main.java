@@ -51,11 +51,11 @@ public class Main {
         return maxEmployee;
     }
 
-    public static double average () {
+    public static double average() {
         return sum() / employees.length;
     }
 
-    private static void  printAllNames() {
+    private static void  printAllNames () {
         for (Employee employee : employees) {
             System.out.println(employee.getFullName());
         }
